@@ -1,0 +1,13 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/create
+Accept: application/json
+
+###
+GET http://localhost:8000/get_user?user_id=0
+Accept: application/json
